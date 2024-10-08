@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="container">
+        <span id="addBtn">Add Book!</span>
+
+        <form id="addForm">
+            <label for="Author">Author:</label>
+            <input id="author" type="text">
+            <br>
+
+            <label for="Title">Title:</label>
+            <input id="title" type="text">
+            <br>
+
+            <label for="Number of pages">Number of pages:</label>
+            <input id="numberOfPages" type="number">
+            <br>
+
+            <label for="Read status">Read Status: (is the book being read)</label>
+            <div>
+                <input id="yes" type="radio" name="readStatus" value="yes">Yes
+                <input id="no" type="radio" name="readStatus" value="no">No
+            </div>
+            <button id="submitBtn" type="submit">Add</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
